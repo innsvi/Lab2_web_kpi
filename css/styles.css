@@ -15,7 +15,7 @@ ul{
 
 :root{
     --primary-text-color: #212121;
-    --accent-color: #2196F3;
+    --accent-color: #f15a19;
     --article-text-color: #757575;
     --white-text-color: #FFFFFF;
     --primary-bg-color: #FFFFFF;
@@ -226,7 +226,7 @@ button{
 
 .hero-button:hover,
 .hero-button:focus{
-    background-color: #188CE8;
+    background-color: #e95f0e;
 }
 
 
@@ -297,6 +297,36 @@ button{
 
 .our-item:not(:last-child){
     margin-right: 30px;
+}
+
+.maintab{
+        width: 100%;
+        margin-bottom: 20px;
+        border: 5px solid #fff;
+        border-top: 5px solid #fff;
+        border-bottom: 3px solid #fff;
+        border-collapse: collapse; 
+        outline: 3px solid #ffd300;
+        font-size: 30px;
+        background: #fff!important;
+}
+
+.maintab th {
+	font-weight: bold;
+	padding: 7px;
+	background: #ffb048;
+	border: none;
+	text-align: left;
+	font-size: 30px;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #faf9f8;
+}
+
+.maintab td {
+	padding: 7px;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+	font-size: 25px;
 }
 
 
@@ -412,8 +442,8 @@ button{
 
 .client-item:focus,
 .client-item:hover{
-    border-color: #188CE8;
-    color: #188CE8;
+    border-color: #e6590d;
+    color: #e6590d;
 }
 
 .client-icon{
