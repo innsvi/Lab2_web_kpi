@@ -60,6 +60,17 @@ img{
 
 /* ========================= HEADER ================================ */
 
+#logo-web{
+    padding-top: 24px;
+    padding-bottom: 25px;
+    color: var(--primary-text-color);
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
 .header {
     border-bottom: 1px solid #ECECEC;;
 }
@@ -299,35 +310,72 @@ button{
     margin-right: 30px;
 }
 
-.maintab{
-        width: 100%;
-        margin-bottom: 20px;
-        border: 5px solid #fff;
-        border-top: 5px solid #fff;
-        border-bottom: 3px solid #fff;
-        border-collapse: collapse; 
-        outline: 3px solid #ffd300;
-        font-size: 30px;
-        background: #fff!important;
+.images-block {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+.about-div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+   padding-left: 20px;
+}
+.about-us-text{
+    text-align: justify;
+    margin-left: 10px;
+    font-size: 23px;
+    line-height: 1.2;
+    letter-spacing: 0.03em; 
+    color: var(--article-text-color);
 }
 
-.maintab th {
+.maintab{
+        width: 100%;
+        margin-bottom: 20px; */
+        border-collapse: collapse; 
+        outline: 3px solid #ff8400;
+        font-size: 30px;
+        background: #fff!important;
+
+        .th {
+            text-align: center;
+            font-weight: bold;
+            padding: 7px;
+            border: none;
+            text-align: left;
+            font-size: 25px;
+      /* border-top: 3px solid #fff; */
+            /* border-bottom: 3px solid #faf9f8; */
+        }
+
+        td {
+            border: solid rgb(255, 85, 0) 1px;
+            background-color: #e55c21;
+            text-align: center;
+            padding: 7px;
+            font-size: 25px;
+        }
+}
+
+/* .maintab th {
 	font-weight: bold;
 	padding: 7px;
-	background: #ffb048;
+	background: #f76d03;
 	border: none;
 	text-align: left;
 	font-size: 30px;
 	border-top: 3px solid #fff;
 	border-bottom: 3px solid #faf9f8;
-}
+} */
 
-.maintab td {
+/* .maintab td {
 	padding: 7px;
 	border-top: 3px solid #fff;
 	border-bottom: 3px solid #fff;
 	font-size: 25px;
-}
+} */
 
 
 
